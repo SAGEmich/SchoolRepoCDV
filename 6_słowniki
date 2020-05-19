@@ -1,0 +1,3 @@
+dict = {'name':'Michal', 'nazwisko':'Znaj', 'wiek':21, 'dzieci':['Jas' , 'Zosia'], 'rodzice':['Anna' , 'Robert']}
+
+print(dict)

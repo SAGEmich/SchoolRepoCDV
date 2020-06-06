@@ -22,10 +22,13 @@ if key in worker:
     del worker[key]
     print(f'Klucz o nazwie {key} został usunięty')
 
-    else:
+else:
         
         print(f'Klucz o nazwie {key} nie został znaleziony w słowniku')
 
         print(worker)
 
-print(dict)
+print(worker)
+
+for key, value in worker.items():
+    print(f'{key}:{value}')
